@@ -60,3 +60,27 @@ h1 {
 }
 
 /* ------------------------------------------------------ */
+
+.plan-information {
+    display: grid;
+    grid-template-areas:
+        "icon-music title button"
+        "icon-music price button"
+        ;
+}
+.plan-information #icon-music {
+    grid-area: icon-music;
+    justify-self: center;
+    align-self: center;
+}
+.plan-information #title {
+    grid-area: title;
+}
+.plan-information #price {
+    grid-area: price;
+}
+.plan-information #button {
+    grid-area: button;
+    justify-self: center;
+    align-self: center;
+}
