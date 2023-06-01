@@ -4,6 +4,8 @@
     --veryPaleBlue: hsl(225, 100%, 98%);
     --desaturateBlue: hsl(224, 23%, 55%);
     --darkBlue: hsl(223, 47%, 23%);
+    --sm: 0.80rem;
+    --md: 1rem;
 }
 * {
     box-sizing: border-box;
@@ -54,8 +56,9 @@ h1 {
 }
 
 .description p {
+    font-size: var(--md);
     margin-top: 0.9375rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 1rem;
     color: var(--desaturateBlue);
 }
 
@@ -63,10 +66,14 @@ h1 {
 
 .plan-information {
     display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas:
         "icon-music title button"
         "icon-music price button"
         ;
+    height: 4.6rem;
+    background-color: var(--paleBlue);
+    border-radius: 0.76rem;
 }
 .plan-information #icon-music {
     grid-area: icon-music;
@@ -75,12 +82,42 @@ h1 {
 }
 .plan-information #title {
     grid-area: title;
+    align-self: end;
+    font-size: var(--sm);
 }
 .plan-information #price {
     grid-area: price;
+    font-size: var(--sm);
 }
 .plan-information #button {
     grid-area: button;
     justify-self: center;
     align-self: center;
+}
+
+/* ------------------------------------------------------ */
+
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.390rem;
+}
+.payment-section #pay-button {
+    display: flex;
+    padding: 0.96rem;
+    justify-content: center;
+    margin-bottom: 0.625rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--brightBlue);
+    color: var(--paleBlue);
+    box-shadow: -1px 4px 24px -10px var(--desaturateBlue);
+}
+.payment-section #cancel-button {
+    display: flex;
+    padding: 0.96rem;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    color: var(--desaturateBlue);
 }
