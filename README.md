@@ -19,8 +19,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Solution Page]()
-- Live Site: [Live Site at Github Pages]()
+- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/order-summary-card-using-css-grid-uh7ZM5-mDD)
+- Live Site: [Live Site at Github Pages](https://s1s4.github.io/order-summary-card/)
 
 ## My process
 
