@@ -87,11 +87,13 @@ h1 {
     align-self: end;
     font-size: var(--sm);
     font-weight: 700;
+    color: var(--darkBlue);
 }
 .plan-information #price {
     grid-area: price;
     font-size: var(--sm);
     font-weight: 400;
+    color: var(--desaturateBlue);
 }
 .plan-information #button {
     grid-area: button;
@@ -131,6 +133,7 @@ h1 {
     justify-content: center;
     font-weight: 700;
     border: none;
+    border-radius: 1rem;
     background-color: white;
     color: var(--desaturateBlue);
     cursor: pointer;
