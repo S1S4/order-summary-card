@@ -39,10 +39,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 -	Px to rem VScode extension
 - [CSS Buttons](https://www.w3schools.com/css/css3_buttons.asp)
 
-## Pending
-
-- Implement responsive design
-
 ## Author
 
 - [Cesar Perez](https://github.com/S1S4)
