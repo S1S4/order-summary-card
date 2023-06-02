@@ -6,9 +6,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+- [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
+- [Pending](#pending)
 - [Author](#author)
 
 ## Overview
@@ -37,7 +39,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 -	Px to rem VScode extension
 - [CSS Buttons](https://www.w3schools.com/css/css3_buttons.asp)
 
-### Pending
+## Pending
 
 - Implement responsive design
 
